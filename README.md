@@ -1,16 +1,13 @@
-### Hi there 👋
+## Hi there 👋
+- 🌱 I’m currently learning Rust & Docker
+- 📫 How to reach me: `kalski#8760` on Discord
+- ⚡ Fun fact: 
 
-<!--
-**kqlski/kqlski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=kqlski&count_private=true&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
-Here are some ideas to get you started:
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kqlski&layout=compact&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Here's a cool project I've made
+<br>
+
+[![3D-visualizer](https://github-readme-stats.vercel.app/api/pin/?username=kqlski&repo=3d-visualizer&theme=github_dark)](https://github.com/kqlski/3d-visualizer)
