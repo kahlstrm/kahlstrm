@@ -11,5 +11,4 @@
 <br>
 
 [![3D-visualizer](https://github-readme-stats.vercel.app/api/pin/?username=kqlski&repo=3d-visualizer&theme=github_dark)](https://github.com/kqlski/3d-visualizer)
-
 [![Drill And Practice](https://github-readme-stats.vercel.app/api/pin/?username=kqlski&repo=drill-and-practice&theme=github_dark)](https://github.com/kqlski/drill-and-practice)
