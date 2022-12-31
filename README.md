@@ -1,6 +1,6 @@
 ## Hi there 👋
 - 🌱 I’m currently learning Rust & Docker
-- 📫 How to reach me: `kalski#8760` on Discord
+- 📫 How to reach me: `ahlstrom.kalle@outlook.com`
 - ⚡ Fun fact: I learned that Java also means Coffee 10 years after I wrote my first Java-program.
 
 [![My GitHub stats](https://github-readme-stats.vercel.app/api?username=kqlski&count_private=true&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
