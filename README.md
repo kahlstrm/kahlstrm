@@ -12,3 +12,5 @@
 
 [![3D-visualizer](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=kqlski&repo=3d-visualizer&theme=github_dark)](https://github.com/kqlski/3d-visualizer)
 [![Drill And Practice](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=kqlski&repo=drill-and-practice&theme=github_dark)](https://github.com/kqlski/drill-and-practice)
+
+[![paivabot](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=kqlski&repo=drill-and-practice&theme=github_dark)](https://github.com/kqlski/paivabot)
