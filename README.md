@@ -1,5 +1,5 @@
 ## Hi there 👋
-- 🌱 I’m currently learning Rust & Docker
+- 🌱 I’m currently learning Rust & AWS
 - 📫 How to reach me: `ahlstrom.kalle@outlook.com`
 - ⚡ Fun fact: I learned that Java also means Coffee 10 years after I wrote my first Java-program.
 
