@@ -10,9 +10,9 @@
 ### Here's some cool projects I've made/contributed to
 <br>
 
-[![next-shortener](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=nitorCreations&repo=vault&theme=github_dark)](https://github.com/nitorCreations/vault)
-[![next-shortener](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=kahlstrm&repo=next-shortener&theme=github_dark)](https://github.com/kahlstrm/next-shortener)
-[![3D-visualizer](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=kahlstrm&repo=3d-visualizer&theme=github_dark)](https://github.com/kahlstrm/3d-visualizer)
-[![Drill And Practice](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=kahlstrm&repo=drill-and-practice&theme=github_dark)](https://github.com/kahlstrm/drill-and-practice)
 
-[![paivabot](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=kahlstrm&repo=paivabot&theme=github_dark)](https://github.com/kahlstrm/paivabot)
+[![next-shortener](https://github-readme-stats.vercel.app/api/pin/?username=kahlstrm&repo=next-shortener&theme=github_dark)](https://github.com/kahlstrm/next-shortener)
+[![3D-visualizer](https://github-readme-stats.vercel.app/api/pin/?username=kahlstrm&repo=3d-visualizer&theme=github_dark)](https://github.com/kahlstrm/3d-visualizer)
+[![paivabot](https://github-readme-stats.vercel.app/api/pin/?username=kahlstrm&repo=paivabot&theme=github_dark)](https://github.com/kahlstrm/paivabot)
+[![kalski-web](https://github-readme-stats.vercel.app/api/pin/?username=kahlstrm&repo=paivabot&theme=github_dark)](https://github.com/kahlstrm/paivabot)
+[![nitor-vault](https://github-readme-stats.vercel.app/api/pin/?username=nitorCreations&repo=vault&theme=github_dark)](https://github.com/nitorCreations/vault)
