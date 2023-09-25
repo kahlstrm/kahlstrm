@@ -1,6 +1,6 @@
 ## Hi there 👋
 - 🌱 I’m currently learning Rust & AWS
-- 📫 How to reach me: `ahlstrom.kalle@outlook.com`
+- 📫 How to reach me: [`kalle.ahlstrom@iki.fi`](mailto:kalle.ahlstrom@iki.fi)
 - ⚡ Fun fact: I learned that Java also means Coffee 10 years after I wrote my first Java-program.
 
 [![My GitHub stats](https://github-readme-stats.vercel.app/api?username=kahlstrm&count_private=true&show_icons=true&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
