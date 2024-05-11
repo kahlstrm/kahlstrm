@@ -11,6 +11,7 @@
 <br>
 
 
+[![brc-rs](https://github-readme-stats.vercel.app/api/pin/?username=kahlstrm&repo=brc-rs&theme=transparent)](https://github.com/kahlstrm/brc-rs)
 [![next-shortener](https://github-readme-stats.vercel.app/api/pin/?username=kahlstrm&repo=next-shortener&theme=transparent)](https://github.com/kahlstrm/next-shortener)
 [![3D-visualizer](https://github-readme-stats.vercel.app/api/pin/?username=kahlstrm&repo=3d-visualizer&theme=transparent)](https://github.com/kahlstrm/3d-visualizer)
 [![paivabot](https://github-readme-stats.vercel.app/api/pin/?username=kahlstrm&repo=paivabot&theme=transparent)](https://github.com/kahlstrm/paivabot)
