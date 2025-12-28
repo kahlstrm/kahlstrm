@@ -1,0 +1,85 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  stats-and-langs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&theme=transparent
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top-langs card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=transparent
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload stats artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: stats-cards
+          path: profile/*.svg
+
+  generate-pins:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: ["brc-rs", "terraform-aws-ecr-soci-indexer", "3d-visualizer"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate pin card for ${{ matrix.repo }}
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=${{ matrix.repo }}&theme=transparent&description_lines_count=1
+          path: profile/pin-${{ matrix.repo }}.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload pin artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pin-${{ matrix.repo }}
+          path: profile/pin-${{ matrix.repo }}.svg
+
+  commit-cards:
+    needs: [stats-and-langs, generate-pins]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: profile
+          merge-multiple: true
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update README cards"
+            git push
+          fi
