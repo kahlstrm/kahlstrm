@@ -12,6 +12,11 @@
 
 <br>
 
+[![3D-visualizer](profile/pin-3d-visualizer.svg)](https://github.com/kahlstrm/3d-visualizer)
+[![infra](profile/pin-infra.svg)](https://github.com/kahlstrm/infra)
+[![nixos-config](profile/pin-nixos-config.svg)](https://github.com/kahlstrm/nixos-config)
 [![brc-rs](profile/pin-brc-rs.svg)](https://github.com/kahlstrm/brc-rs)
 [![terraform-aws-ecr-soci-indexer](profile/pin-terraform-aws-ecr-soci-indexer.svg)](https://github.com/kahlstrm/terraform-aws-ecr-soci-indexer)
-[![3D-visualizer](profile/pin-3d-visualizer.svg)](https://github.com/kahlstrm/3d-visualizer)
+[![web](profile/pin-web.svg)](https://github.com/kahlstrm/web)
+[![Tietokilta infra](profile/pin-Tietokilta-infra.svg)](https://github.com/Tietokilta/infra)
+[![Tietokilta web](profile/pin-Tietokilta-web.svg)](https://github.com/Tietokilta/web)

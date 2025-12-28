@@ -37,23 +37,48 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: ["brc-rs", "terraform-aws-ecr-soci-indexer", "3d-visualizer"]
+        include:
+          - username: kahlstrm
+            repo: brc-rs
+          - username: kahlstrm
+            repo: terraform-aws-ecr-soci-indexer
+          - username: kahlstrm
+            repo: 3d-visualizer
+          - username: kahlstrm
+            repo: nixos-config
+          - username: kahlstrm
+            repo: web
+          - username: kahlstrm
+            repo: infra
+          - username: Tietokilta
+            repo: infra
+          - username: Tietokilta
+            repo: web
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate pin card for ${{ matrix.repo }}
+      - name: Determine filename
+        id: filename
+        run: |
+          if [ "${{ matrix.username }}" == "${{ github.repository_owner }}" ]; then
+             echo "name=pin-${{ matrix.repo }}" >> $GITHUB_OUTPUT
+          else
+             echo "name=pin-${{ matrix.username }}-${{ matrix.repo }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate pin card for ${{ matrix.username }}/${{ matrix.repo }}
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=${{ matrix.repo }}&theme=transparent&description_lines_count=1
-          path: profile/pin-${{ matrix.repo }}.svg
+          options: username=${{ matrix.username }}&repo=${{ matrix.repo }}&theme=transparent&description_lines_count=1${{ matrix.username != github.repository_owner && '&show_owner=true' || '' }}
+          path: profile/${{ steps.filename.outputs.name }}.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload pin artifact
         uses: actions/upload-artifact@v4
         with:
-          name: pin-${{ matrix.repo }}
-          path: profile/pin-${{ matrix.repo }}.svg
+          name: ${{ steps.filename.outputs.name }}
+          path: profile/${{ steps.filename.outputs.name }}.svg
 
   commit-cards:
     needs: [stats-and-langs, generate-pins]
