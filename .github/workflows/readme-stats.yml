@@ -45,11 +45,9 @@ jobs:
           - username: kahlstrm
             repo: 3d-visualizer
           - username: kahlstrm
-            repo: nixos-config
+            repo: config
           - username: kahlstrm
             repo: web
-          - username: kahlstrm
-            repo: infra
           - username: Tietokilta
             repo: infra
           - username: Tietokilta
@@ -61,9 +59,9 @@ jobs:
         id: filename
         run: |
           if [ "${{ matrix.username }}" == "${{ github.repository_owner }}" ]; then
-             echo "name=pin-${{ matrix.repo }}" >> $GITHUB_OUTPUT
+             echo "name=pin-${{ matrix.repo }}" >> "$GITHUB_OUTPUT"
           else
-             echo "name=pin-${{ matrix.username }}-${{ matrix.repo }}" >> $GITHUB_OUTPUT
+             echo "name=pin-${{ matrix.username }}-${{ matrix.repo }}" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Generate pin card for ${{ matrix.username }}/${{ matrix.repo }}

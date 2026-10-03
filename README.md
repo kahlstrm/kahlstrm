@@ -13,8 +13,7 @@
 <br>
 
 [![3D-visualizer](profile/pin-3d-visualizer.svg)](https://github.com/kahlstrm/3d-visualizer)
-[![infra](profile/pin-infra.svg)](https://github.com/kahlstrm/infra)
-[![nixos-config](profile/pin-nixos-config.svg)](https://github.com/kahlstrm/nixos-config)
+[![config](profile/pin-config.svg)](https://github.com/kahlstrm/config)
 [![brc-rs](profile/pin-brc-rs.svg)](https://github.com/kahlstrm/brc-rs)
 [![terraform-aws-ecr-soci-indexer](profile/pin-terraform-aws-ecr-soci-indexer.svg)](https://github.com/kahlstrm/terraform-aws-ecr-soci-indexer)
 [![web](profile/pin-web.svg)](https://github.com/kahlstrm/web)
