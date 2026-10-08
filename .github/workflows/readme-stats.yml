@@ -39,13 +39,15 @@ jobs:
       matrix:
         include:
           - username: kahlstrm
+            repo: config
+          - username: kahlstrm
+            repo: secret-injector
+          - username: kahlstrm
             repo: brc-rs
           - username: kahlstrm
             repo: terraform-aws-ecr-soci-indexer
           - username: kahlstrm
             repo: 3d-visualizer
-          - username: kahlstrm
-            repo: config
           - username: kahlstrm
             repo: web
           - username: Tietokilta
