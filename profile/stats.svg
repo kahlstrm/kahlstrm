@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kalle Ahlstr&#246;m&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 8, Total Commits  (last year) : 1093, Total PRs: 298, Total Issues: 35, Contributed to (last year): 16</desc>
+        <desc id="descId">Total Stars Earned: 8, Total Commits  (last year) : 1114, Total PRs: 298, Total Issues: 35, Contributed to (last year): 16</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 90.67163317662362;
+        stroke-dashoffset: 90.55721150208375;
       }
     }
   
